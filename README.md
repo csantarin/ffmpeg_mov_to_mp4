@@ -29,3 +29,49 @@ Processing ../my-project/my-project-recording.mov ...
 Done!
 ../my-project/my-project-recording.mp4
 ```
+
+## Linking
+
+In case you don't want to constantly `source` the same same command over and over, you can link the script.
+
+### First step: Know your environment
+
+You should locate where your shell environment is.
+
+Assumptions in the subsequent parts:
+- Shell environment file: `.zshrc`
+- Location: user home directory (`~`. In the following, it represents the `/Users/csantarin` folder).
+
+### Option 1: Via utility script
+
+There's a `link.sh` file that can do this for you.
+
+```sh
+sh ./link.sh ~/zshrc
+```
+
+Result:
+
+```
+Retrieving this repository's working directory ...
+/Users/csantarin/ffmpeg_mp4_to_mov
+
+Adding to /Users/csantarin/.zshrc ...
+Done!
+```
+
+### Option 2: By hand
+
+Copy this to your shell environment file.
+
+```sh
+source ~/ffmpeg_mp4_to_mov/ffmpeg_mov_to_mp4.sh
+```
+
+### Final step: Apply changes
+
+`source` the changes immediately or launch a new command line session:
+
+```sh
+source ~/.zshrc
+```
