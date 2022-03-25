@@ -8,12 +8,31 @@ This is a simple function. It doesn't handle errors.
 
 You need to download and install [`ffmpeg`](https://ffmpeg.org).
 
+## Setup
+
+1. Follow the [Prerequisite](#prerequisite) instructions.
+
+2. Clone this repository.
+    ```sh
+	git clone https://github.com/csantarin/ffmpeg_mp4_to_mov.git
+    ```
+
+3. Navigate to the repostitory folder.
+	```sh
+	cd <path/to/the/parent/of/your/local/copy>/ffmpeg_mov_to_mp4
+	```
+
+4. Expose the `ffmpeg_mov_to_mp4` function to command line.
+
+	```sh
+	source ./ffmpeg_mov_to_mp4.sh 
+	```
+
 ## Usage
 
-```sh
-# Expose the ffmpeg_mov_to_mp4 function to command line.
-source ./ffmpeg_mov_to_mp4.sh 
+Call the newly-installed `ffmpeg_mov_to_mp4` command.
 
+```sh
 # Call the function and provide an input file name
 # - Exclude the trailing .mov extension as it will be used to construct the .mp4 file.
 # - Include a path (relative or absolute) if necessary.
@@ -23,7 +42,6 @@ ffmpeg_mov_to_mp4 <path/to/your/file>
 Example:
 
 ```sh
-$ source ./ffmpeg_mov_to_mp4.sh
 $ ffmpeg_mov_to_mp4 ../my-project/my-project-recording
 
 Processing ../my-project/my-project-recording.mov ...
