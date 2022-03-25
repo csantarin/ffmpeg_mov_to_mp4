@@ -50,15 +50,15 @@ Call the newly-installed `ffmpeg_mov_to_mp4` command.
 
 ```sh
 # Call the function and provide an input file name
-# - Exclude the trailing .mov extension as it will be used to construct the .mp4 file.
+# - Include the trailing .mov extension.
 # - Include a path (relative or absolute) if necessary.
-ffmpeg_mov_to_mp4 <path/to/your/file> 
+ffmpeg_mov_to_mp4 <path/to/your/file>.mov
 ```
 
 Example:
 
 ```sh
-$ ffmpeg_mov_to_mp4 ../my-project/my-project-recording
+$ ffmpeg_mov_to_mp4 ../my-project/my-project-recording.mov
 
 Processing ../my-project/my-project-recording.mov ...
 
