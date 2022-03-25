@@ -1,8 +1,22 @@
 # ffmpeg_mov_to_mp4
 
+Table of contents
+- [What does it do?](#what-does-it-do)
+- [Prerequisite](#prerequisite)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Linking](#linking)
+	- [First step: Know your environment](#first-step-know-your-environment)
+		- [Option 1: Via utility script](#option-1-via-utility-script)
+		- [Option 2: By hand](#option-2-by-hand)
+	- [Final step: Apply changes](#final-step-apply-changes)
+
+## What does it do?
+
 Creates a compressed copy of a large `.mov` file into `.mp4` format using [`ffmpeg`](https://ffmpeg.org).
 
 This is a simple function. It doesn't handle errors.
+
 
 ## Prerequisite
 
