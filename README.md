@@ -13,9 +13,9 @@ Table of contents
 
 ## What does it do?
 
-Creates a compressed copy of a large `.mov` file into `.mp4` format using [`ffmpeg`](https://ffmpeg.org).
+It creates a compressed copy of a large `.mov` file in the `.mp4` format using [`ffmpeg`](https://ffmpeg.org).
 
-This is a simple function. It doesn't handle errors.
+This is a simple function. It isn't very tolerant to fault.
 
 
 ## Prerequisite
