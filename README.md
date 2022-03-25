@@ -1,8 +1,12 @@
 # ffmpeg_mov_to_mp4
 
-Creates a compressed copy of a large `.mov` file into `.mp4` format.
+Creates a compressed copy of a large `.mov` file into `.mp4` format using [`ffmpeg`](https://ffmpeg.org).
 
 This is a simple function. It doesn't handle errors.
+
+## Prerequisite
+
+You need to download and install [`ffmpeg`](https://ffmpeg.org).
 
 ## Usage
 
