@@ -28,6 +28,8 @@ You need to download and install [`ffmpeg`](https://ffmpeg.org).
 	source ./ffmpeg_mov_to_mp4.sh 
 	```
 
+5. Follow the [Linking](#linking) instructions to add this command to your command line permanently.
+
 ## Usage
 
 Call the newly-installed `ffmpeg_mov_to_mp4` command.
@@ -64,7 +66,7 @@ Assumptions in the subsequent parts:
 - Shell environment file: `.zshrc`
 - Location: user home directory (`~`. In the following, it represents the `/Users/csantarin` folder).
 
-### Option 1: Via utility script
+#### Option 1: Via utility script
 
 There's a `link.sh` file that can do this for you.
 
@@ -82,7 +84,7 @@ Adding to /Users/csantarin/.zshrc ...
 Done!
 ```
 
-### Option 2: By hand
+#### Option 2: By hand
 
 Copy this to your shell environment file.
 
