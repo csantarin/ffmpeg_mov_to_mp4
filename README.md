@@ -92,7 +92,7 @@ Result:
 
 ```
 Retrieving this repository's working directory ...
-/Users/csantarin/ffmpeg_mp4_to_mov
+/Users/csantarin/ffmpeg_mov_to_mp4
 
 Adding to /Users/csantarin/.zshrc ...
 Done!
@@ -103,7 +103,7 @@ Done!
 Copy this to your shell environment file.
 
 ```sh
-source ~/ffmpeg_mp4_to_mov/ffmpeg_mov_to_mp4.sh
+source ~/ffmpeg_mov_to_mp4/ffmpeg_mov_to_mp4.sh
 ```
 
 ### Final step: Apply changes
