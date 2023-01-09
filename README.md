@@ -27,7 +27,16 @@ This is a simple function. It isn't very tolerant to fault.
 
 ## Prerequisite
 
-You need to download and install [`ffmpeg`](https://ffmpeg.org).
+You need to download and install [`ffmpeg`].
+
+1. Download and Install Homebrew
+```sh	
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+2. Install ffmpeg
+```sh
+brew install ffmpeg
+```
 
 ## Setup
 
